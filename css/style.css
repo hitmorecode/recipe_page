@@ -25,5 +25,62 @@
 }
 
 body {
-	font-family: "Young Serif";
+	font-family: "Young Serif", arial, helvetica, sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--neutral-eggshell);
+  padding: 12.4rem 0;
 }
+
+.container {
+  width: 73.6rem;
+  height: 170.8rem;
+  padding: 4rem;
+  background-color: var(--neutral-white);
+  border-radius: 2rem;
+}
+
+img {
+  width: 65.8rem;
+  height: 30rem;
+  border-radius: 1.3rem;
+  margin-bottom: 3.4rem;
+}
+
+h1 {
+  margin-bottom: 1.6rem;
+  font-size: 4rem;
+  color: var(--neutral-dark-charcoal);
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  color: var(--neutral-wenge-brown);
+  font-weight: var(--font-weight-400);
+}
+
+p,
+li,
+h4 {
+  font-family: var(--font-family-outif);
+}
+
+p {
+  line-height: 2.4rem;
+  margin-bottom: 3.1rem;
+}
+
+.preparation-time {
+  background-color: var(--neutral-rose-white);
+  padding: 2.7rem 2.8rem;
+}
+
+
+
+
+
+
