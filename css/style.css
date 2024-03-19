@@ -74,13 +74,42 @@ p {
   margin-bottom: 3.1rem;
 }
 
+li {
+  margin-left: 1.8rem;
+}
+
 .preparation-time {
   background-color: var(--neutral-rose-white);
   padding: 2.7rem 2.8rem;
+  border-radius: 1.2rem;
+  margin-bottom: 2.6rem;
 }
 
+li {
+  color: var(--primary-dark-raspberry);
+}
 
+.preparation-time > h4 {
+  margin-bottom: 1.4rem;
+  font-weight: var(--font-weight-400);
+  font-size: 2rem;
+  color: var(--primary-dark-raspberry);
+}
 
+.preparation-time > ul > li {
+  margin-bottom: 0.8rem;
+}
 
+.preparation-time > ul > li:nth-last-child(1) {
+  margin-bottom: 0;
+}
 
+.time {
+  font-weight: var(--font-weight-600);
+  color: var(--neutral-wenge-brown);
+  margin-left: 1.2rem;
+}
 
+.prep-time {
+  color: var(--neutral-wenge-brown);
+}
