@@ -43,11 +43,15 @@ body {
   border-radius: 2rem;
 }
 
+.description {
+  margin-bottom: 3.1rem;
+}
+
 img {
   width: 65.8rem;
   height: 30rem;
   border-radius: 1.3rem;
-  margin-bottom: 3.4rem;
+  margin-bottom: 2.4rem;
 }
 
 h1 {
@@ -61,17 +65,13 @@ li {
   font-size: 1.6rem;
   color: var(--neutral-wenge-brown);
   font-weight: var(--font-weight-400);
+  line-height: 2.4rem;
 }
 
 p,
 li,
 h4 {
   font-family: var(--font-family-outif);
-}
-
-p {
-  line-height: 2.4rem;
-  margin-bottom: 3.1rem;
 }
 
 li {
@@ -93,7 +93,7 @@ li {
   margin-bottom: 1.4rem;
   font-weight: var(--font-weight-400);
   font-size: 2rem;
-  color: var(--primary-dark-raspberry);
+  color: var(--primary-nutmeg);
 }
 
 .preparation-time > ul > li {
@@ -107,9 +107,58 @@ li {
 .time {
   font-weight: var(--font-weight-600);
   color: var(--neutral-wenge-brown);
-  margin-left: 1.2rem;
 }
 
 .prep-time {
   color: var(--neutral-wenge-brown);
 }
+
+h2 {
+  color: var(--primary-dark-raspberry);
+  margin-bottom: 1.8rem;
+}
+
+.prep-n-instructions {
+  padding-bottom: 3.1rem;
+  border-bottom: 1px solid hsl(0, 0%, 88%);
+  margin-bottom: 3.1rem;
+}
+
+ol > li {
+  padding: 0 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+ol > li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.nutritions-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsl(0, 0%, 88%);
+}
+
+.nutritions-table:nth-last-child(1) {
+ border-bottom: none;
+}
+#nutrition-paragraph {
+  margin-bottom: 1.2rem;
+}
+
+.left,
+.right {
+  width: 50%;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+ .left {
+   padding-left: 3.2rem;
+ }
+
+ .right {
+   padding-left: 0.8rem;
+   color: var(--primary-dark-raspberry);
+   font-weight: var(--font-weight-600);
+ }
