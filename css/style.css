@@ -155,7 +155,7 @@ ol > li:nth-last-child(1),
 }
 
 .nutritions-table:nth-last-child(1) {
- border-bottom: none;
+  border-bottom: none;
 }
 
 #nutrition-paragraph {
@@ -168,14 +168,29 @@ ol > li:nth-last-child(1),
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
 }
- .left {
-   padding-left: 3.2rem;
- }
 
- .right {
-   padding-left: 0.8rem;
-   color: var(--primary-nutmeg);
-   font-weight: var(--font-weight-600);
- }
+.left {
+  padding-left: 3.2rem;
+}
 
- 
+.right {
+  padding-left: 0.8rem;
+  color: var(--primary-nutmeg);
+  font-weight: var(--font-weight-600);
+}
+
+@media only screen and (max-width: 37.5rem) {
+  .container {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+}
