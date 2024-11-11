@@ -184,6 +184,10 @@ ol > li:nth-last-child(1),
     padding: 0;
   }
 
+  .one {
+    padding: 0 2rem;
+  }
+
   h1 {
     font-size: 3.5rem;
   }
@@ -193,4 +197,13 @@ ol > li:nth-last-child(1),
     height: auto;
     border-radius: 0;
   }
+
+  /* .one,
+  .prep-n-instructions {
+    padding: 0 2rem;
+  } */
+
+  /* .preparation-time {
+    margin: 0 2rem;
+  } */
 }
