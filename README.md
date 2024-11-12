@@ -31,7 +31,7 @@ Users should be able to:
 
 - Solution URL: [HTML Solution](https://github.com/hitmorecode/recipe_page/blob/main/index.html)
 - Solution URL: [CSS Solution](https://github.com/hitmorecode/recipe_page/blob/main/css/style.css)
-- Live Site URL: [Live site]( https://hitmorecode.github.io/recipe_page/)
+- Live Site URL: [Live site](https://hitmorecode.github.io/recipe_page/)
 
 ## My process
 
