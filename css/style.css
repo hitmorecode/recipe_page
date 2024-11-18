@@ -78,6 +78,7 @@ h4 {
 
 li {
   margin-left: 1.8rem;
+  padding-left: 1.8rem;
 }
 
 .preparation-time {
@@ -116,11 +117,11 @@ li {
   color: var(--neutral-wenge-brown);
 }
 
-.time::before,
+/* .time::before,
 .ingredients::before {
   content: "";
   margin-left: 2.7rem;
-}
+} */
 
 .prep-n-instructions > ul > li {
   margin-bottom: 1rem;
